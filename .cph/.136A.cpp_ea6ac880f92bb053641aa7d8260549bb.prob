@@ -1,0 +1,1 @@
+{"name":"Local: 136A","url":"c:\\Users\\dhruv\\Desktop\\codeforces\\136A.cpp","tests":[{"id":1657705584772,"input":"4\n2 3 4 1","output":"4 1 2 3"},{"id":1657705603074,"input":"3\n1 3 2","output":"1 3 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\dhruv\\Desktop\\codeforces\\136A.cpp","group":"local","local":true}
