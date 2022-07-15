@@ -1,26 +1,29 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main()
 {
-    int n;
+    int n, i, count = 1, ans = 0;
     cin >> n;
-    int count = 0;
-    vector<int> v(n);
-    for (int i = 0; i < v.size(); i++)
+    int a[n + 10];
+    for (i = 0; i < n; i++)
     {
-        cin >> v[i];
+        cin >> a[i];
     }
-
-    for (int i = 0; i < v.size() - 1; i++)
+    for (i = 1; i < n; i++)
     {
-        if (v[i + 1] <= v[i])
+        if (a[i] > a[i - 1])
         {
-            count = 0;
+            count++;
         }
-        count++;
+        else
+        {
+            ans = max(count, ans);
+            count = 1;
+        }
     }
-    cout << count;
-
+    ans = max(count, ans);
+    cout << ans << endl;
     return 0;
 }
