@@ -1,20 +1,21 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
+
 int main()
 {
-    int n;
+    int n, i = 0, a[7];
     cin >> n;
-    int *a = new int[7];
     for (int i = 0; i < 7; i++)
         cin >> a[i];
+    int t = a[0];
 
-    int idx = 0;
-    while (n > 0)
+    while (t < n)
     {
-        n -= a[idx];
-        idx = (++idx)%7;
+        i++;
+        i %= 7;
+        t += a[i];
     }
-    cout << idx;
 
+    cout << i + 1 << endl;
     return 0;
 }

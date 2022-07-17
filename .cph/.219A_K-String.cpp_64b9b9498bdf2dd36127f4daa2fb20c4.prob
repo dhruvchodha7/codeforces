@@ -1,0 +1,1 @@
+{"name":"Local: 219A_K-String","url":"c:\\Users\\dhruv\\Desktop\\codeforces\\219A_K-String.cpp","tests":[{"id":1658062381602,"input":"2\naazz\n","output":"azaz"},{"id":1658062387322,"input":"3\nabcabcabz\n","output":"-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\dhruv\\Desktop\\codeforces\\219A_K-String.cpp","group":"local","local":true}
