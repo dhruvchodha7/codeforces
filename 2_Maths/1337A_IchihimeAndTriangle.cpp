@@ -9,4 +9,3 @@ int main()
         cout<<b<<" "<<c<<" "<<c<<endl;
     }
     return 0;
-}
