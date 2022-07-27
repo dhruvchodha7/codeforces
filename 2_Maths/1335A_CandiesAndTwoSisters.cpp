@@ -8,7 +8,7 @@ int main()
     {
         long long n;
         cin>>n;
-        n = ceil((n/2)-1);
+        n = ceil((n-1)/2);
         cout<<n<<endl;
     }
     
