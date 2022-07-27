@@ -7,23 +7,25 @@ int main()
     while (t--)
     {
         cin >> n;
-        int diff = n / 2;
-        if (diff % 2)
+        if ((n/2) % 2)
         {
             cout << "NO" << endl;
             continue;
         }
         cout << "YES" << endl;
-        int i = 2;
-        while (--n)
-        {
-            cout << i << " ";
-            if (i == 2 * diff)
-                i = 1;
-            else
-                i += 2;
+        int even = 2;
+        for(int i=1; i<n/2; i++){
+            cout<<odd<<"\n";
+            even += 2;
         }
-        cout << i + diff << endl;
+        even -= 2;
+        int odd = 1;
+        for(int i=1; i<n/2; i++){
+            cout<<odd<<"\n";
+            odd += 2;
+        }
+        cout<<even+n/2-1<<"\n";
+        
     }
 
     return 0;
